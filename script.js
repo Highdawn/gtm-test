@@ -9,7 +9,5 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     'event': 'formSubmission'
   });
 
-  setTimeout(() => { this.reset(); }, 100);
-
   alert('Form submitted successfully!');
 });
