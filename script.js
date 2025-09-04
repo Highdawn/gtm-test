@@ -6,7 +6,8 @@ document.getElementById('contactForm').addEventListener('submit', function(event
   // Trigger a custom event for GTM
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
-    'event': 'formSubmission'
+    event: 'formSubmission',
+    debug_mode: true
   });
 
   alert('Form submitted successfully!');
